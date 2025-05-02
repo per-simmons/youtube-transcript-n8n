@@ -5,7 +5,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
     plan: free
-    pythonVersion: 3.11.8
+    pythonVersion: "3.11.8"  # Using quoted version number for Render compatibility
     envVars:
       - key: PORT
         value: 5000
